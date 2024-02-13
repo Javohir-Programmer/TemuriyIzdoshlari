@@ -647,7 +647,7 @@ footer {
 
 	.header-media {
 		width: 100%;
-		height: 100vh;
+		height: auto;
 		display: block;
 		display: flex;
 		align-items: center;
