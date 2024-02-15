@@ -268,11 +268,20 @@ label #menu,
 }
 
 .vedio_1 {
-	max-width: 450px;
+	max-width: 500px;
 }
-
+.vedio_1 iframe{
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+}
 .vedio_2 {
-	max-width: 450px;
+	max-width: 500px;
+}
+.vedio_2 iframe{
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
 }
 .jamoa{
 	width: 100%;
