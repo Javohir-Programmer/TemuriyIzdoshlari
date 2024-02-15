@@ -9,7 +9,7 @@
 
 header {
 	width: 100%;
-	height: 640px;
+	height: 630px;
 	position: relative;
 	background: url(./image/bc.jpg);
 	/* background-color: rgba(0, 0, 0, 0.6); */
@@ -281,7 +281,6 @@ label #menu,
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid red;
 }
 .jamoa-box {
 	width: 100%;
@@ -657,12 +656,11 @@ footer {
 
 	.header-media {
 		width: 100%;
-		height: 90vh;
+		height: 80vh;
 		display: block;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border: 1px solid red;
 		background-image: url(./image/bc-4.jpg);
 		background-color: #fff;
 		background-size: cover;
