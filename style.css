@@ -274,7 +274,15 @@ label #menu,
 .vedio_2 {
 	max-width: 450px;
 }
-
+.jamoa{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid red;
+}
 .jamoa-box {
 	width: 100%;
 	height: auto;
@@ -284,15 +292,16 @@ label #menu,
 	padding: 50px 0px;
 }
 .jamoa_box {
-	width: calc(100% / 3 - 50px);
+	width: calc(100% / 3 - 20px);
 	height: auto;
-	padding: 10px;
+	padding: 20px 10px;
 	text-align: center;
 	border-radius: 20px;
-	transition: 0.5s;
+	transition: 1s;
 }
 .jamoa_box:hover {
 	background-color: #9f2728;
+	transition: 1s;
 	box-shadow: 1px 1px 25px gray;
 }
 .jamoa_box:hover h2 {
@@ -306,6 +315,7 @@ label #menu,
 	font-size: 1.4rem;
 	color: #9f2728;
 	text-align: center;
+	margin-bottom: 40px;
 }
 .jamoa_box img {
 	width: 200px;
@@ -652,6 +662,7 @@ footer {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		padding: 30px 0px;
 		background-image: url(./image/bc-4.jpg);
 		background-size: cover;
 	}
@@ -818,8 +829,8 @@ footer {
 	}
 
 	.nav-logo .vazirlik img {
-		width: 20px;
-		height: 20px;
+		width: 25px;
+		height: 25px;
 	}
 
 	.fan h2 {
